@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+blockquote{
+    display:block;
+    margin-top: 100px;
+}
+
+#img {
+    display : block;
+    margin-left : auto;
+    margin-right: auto;
+    border-radius : 50%;
+    width: 20%;
+}
+
+#quote {
+    display : block;
+    margin-top:25px;
+    margin-left : auto;
+    margin-right: auto;
+    text-align:center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:26px;
+    width:500px;
+}
+
+#author{
+    display : block;
+    margin-top:25px;
+    margin-left : auto;
+    margin-right: auto;
+    text-align:center;
+    font-size:18px;
+    font-family: 'Josefin Sans', sans-serif;
+}

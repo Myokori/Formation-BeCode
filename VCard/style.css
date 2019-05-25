@@ -1,0 +1,50 @@
+body {
+    background-color:#323232
+}
+
+.flexbox {
+    background-color:#180000;
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    width:75%;
+    height:50vh;
+    margin-left:auto;
+    margin-right:auto;
+    top:100px;
+}
+
+.grid {
+    display:grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+.grid01 {
+    display:block;
+    text-align:center;
+    color:white;
+    background-image: url(https://ryan.beshley.com/v4/wp-content/uploads/2018/11/bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -100px;
+}
+
+.grid01 a {
+    color:lightgray;
+}
+
+.PDP {
+    display:block;
+    margin-top:50px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:45px;
+    width:15%;
+    border-radius:50%;
+}
+
+.logos {
+    width:5%;
+    margin-top:35px;
+}
+

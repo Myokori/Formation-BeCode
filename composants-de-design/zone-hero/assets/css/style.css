@@ -1,0 +1,16 @@
+body { background-color: black; margin: 0; }
+
+section { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+.left { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; position: absolute; width: 20%; margin-left: 13%; margin-top: 85px; font-family: 'Bitter', serif; }
+
+h2 { color: #040219; font-size: 42px; }
+
+p { color: #616076; font-weight: bold; font-family: 'Raleway', sans-serif; }
+
+button { padding-top: 20px; padding-bottom: 20px; padding-left: 30px; padding-right: 30px; background-color: #E5B840; border: 1px solid white; font-size: 18px; font-weight: bold; font-family: 'Raleway', sans-serif; }
+
+.right { display: block; margin-left: auto; margin-right: auto; }
+
+img { width: auto; }
+/*# sourceMappingURL=style.css.map */

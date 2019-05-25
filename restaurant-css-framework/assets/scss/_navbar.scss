@@ -1,0 +1,31 @@
+@import "variables";
+
+
+
+
+nav {
+    background-color: #222222; 
+    color: white;
+}
+
+.navbar a { 
+    color: white; 
+}
+
+.navbar a:hover { 
+    color: white; 
+    background-color: #850808; 
+}
+
+.fa-1x {
+    font-size: 1.5rem;
+    }
+    
+    
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+    }
+
+    .white-bars {
+        color: #FFFFFF;
+        }

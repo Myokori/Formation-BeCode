@@ -1,0 +1,155 @@
+nav {
+    background-color:#252630;
+}
+
+nav ul {
+    display:block;
+    margin:0;
+}
+
+nav ul li {
+    display: inline-block;
+    color:white;
+    padding:5px;
+    font-size:15px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:white;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color:white;
+}
+
+nav ul li h2 {
+    position:relative;
+    top:1px;
+    font-size:20px;
+}
+
+.login {
+    position:relative;
+    top:5px;
+    right:10px;
+}
+
+i {
+    margin-right:10px;
+}
+
+.container {
+    background-color:#1e93cc;
+    background-image:url(JSGeek.png);
+    background-repeat: no-repeat;
+    background-position-x: 15%;
+    background-position-y: 30%;
+    padding:100px;
+    margin:auto;
+}
+
+.centertext {
+    text-align: center;
+    color:white;
+}
+
+.button2 {
+    background-color:darkblue;
+    color:white;
+    border:2px solid white;
+    border-radius:5px;
+    margin-top:25px;
+    font-size: 30px;
+
+}
+
+.button1 {
+    background-color:orange;
+    color:white;
+    border:2px solid white;
+    border-radius:5px;
+    margin-top:25px;
+    font-size: 30px;
+}
+
+.container2 {
+    text-align:center;
+    margin-top: 15px;
+    margin-bottom:15px;
+    font-size:25px;
+}
+
+.container3 {
+    text-align:center;
+    margin-top: 15px;
+    margin-bottom:15px;
+    font-size:25px;
+}
+
+.container4 {
+    background-color:lightgray;
+    width:100%;
+    padding-top:30px;
+    padding-bottom:30px;
+    text-align: center;
+}
+
+.container4 .logo {
+    padding:10px;
+    display:inline-block;
+    margin:10px;
+}
+
+.container5 {
+    text-align: center;
+    color:white;
+    margin-top:50px;
+    margin-bottom:100px;
+    font-size:25px;
+}
+
+.containerarticle {
+    background-color: #1e93cc;
+    color:white;
+    width:100%;
+    padding: 15px 15%;
+}
+
+.container-left {
+    display:block;
+    width:40%;
+    text-align:center;
+    float:right;
+    text-align:justify;
+}
+
+.container-right {
+    display:inline-block;
+    text-align:center;
+    width:40%;
+    text-align:justify;
+}
+
+.footer {
+    background-color:#252630;
+    display:inline-block;
+    width: 100%;
+}
+
+.footer ul li {
+    display: inline-block;
+    color:white;
+    padding:5px;
+    font-size:15px;
+    font-family:'Times New Roman', Times, serif;
+    position:relative;
+    top:5px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color:white;
+}

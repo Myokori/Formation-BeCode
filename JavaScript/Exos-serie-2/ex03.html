@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ex 03</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+</head>
+<body>
+    <button type="button" name="calcul" id="calcul">Cliquez ici pour faire un calcul</button>
+
+    <script>
+ window.onload=function(){
+     let a= 3;
+     let b= 2;
+    function triple(x){
+        return x*3
+    };
+document.getElementById("calcul").addEventListener("click", function affiche() 
+{
+    alert(triple(a))
+    alert(triple(b))
+});
+
+}
+
+    </script>
+</body>
+</html>

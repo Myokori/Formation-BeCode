@@ -1,0 +1,23 @@
+@import "variables";
+
+.list-group a{
+    color:white;
+}
+
+#list-home-list, #list-profile-list, #list-messages-list, #list-settings-list{
+    background-color: #222222;
+    border:none;
+    margin-bottom: 5px;
+}
+
+#list-home-list:hover, #list-profile-list:hover, #list-messages-list:hover, #list-settings-list:hover{
+    background-color: #A7A37E;
+}
+
+#list-home-list:focus, #list-profile-list:focus, #list-messages-list:focus, #list-settings-list:focus{
+    border: 1px solid #E6E2AF;
+}
+
+ul{
+    list-style: none;
+}

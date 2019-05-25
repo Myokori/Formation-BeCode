@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>ex 13</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  </head>
+  <body>
+    <button id="IMC">Vérifiez votre IMC</button>
+    <script>
+      window.onload = function() {
+        document
+          .getElementById("IMC")
+          .addEventListener("click", function calculIMC() {
+            let nb = prompt("Veuillez saisir votre poids exprimé en KG");
+            let nb2 = prompt("Veuillez saisir votre taille exprimée en mètre");
+            result = nb / (nb2 * nb2);
+            let fixnb = result.toFixed(2);
+            console.log(fixnb);
+            if (result < 16.5) {
+              alert(fixnb + " Vous êtes en catégorie 'Dénutrition OU Famine'");
+            } else if (result <= 18.5) {
+              alert(fixnb + " Vous êtes en catégorie 'Maigreur'");
+            } else if (result <= 25) {
+              alert(fixnb + " Vous êtes en catégorie 'Corpulence Normale'");
+            } else if (result <= 30) {
+              alert(fixnb + " Vous êtes en catégorie 'Surpoids'");
+            } else if (result <= 35) {
+              alert(fixnb + " Vous êtes en catégorie 'Obésité Modérée'");
+            } else if (result <= 40) {
+              alert(fixnb + " Vous êtes en catégorie 'Obésité sévère'");
+            } else if (result > 40) {
+              alert(fixnb + " Vous êtes en catégorie 'Obésité Morbide'");
+            }
+          });
+      };
+    </script>
+  </body>
+</html>
+
+

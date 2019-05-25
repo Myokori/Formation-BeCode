@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Chinese Food</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <header>
+    <section class="parallax"></section>
+      <!--Navbar-->
+    <nav class="navbar sticky-top navbar-expand-lg">
+    
+        <!-- Additional container -->
+        <div class="container">
+    
+        <!-- Navbar brand -->
+        <img class="img-fluid" src="assets/img/rice.png" alt="food"/>
+        <div class="navbar-brand">Chinese Food</div>
+      
+  <!-- Collapse button -->
+  <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+    aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="white-bars"><i
+        class="fas fa-bars fa-1x"></i></span></button>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+      
+          <!-- Links -->
+          <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="carte.html">Nos Menus</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="resto.html">Nos Restaurants</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="photos.html">Photos</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Nous Contacter</a>
+            </li>      
+          </ul>    
+          </div> 
+      <!--/.Navbar-->
+    </nav>
+  </header>
+
+  <main>
+        <div class="container-fluid">
+                <div class="row carte-center my-5">
+                  <div class="col-sm-12 col-md-8 col-lg-6 d-flex justify-content-center align-items-center">
+                    <div class="list-group w-50 my-5" id="list-tab" role="tablist">
+                      <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home"><span class="badge"><i class="fas fa-utensils"></i></span>Menu 1</a>
+                      <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile"><span class="badge"><i class="fas fa-utensils"></i></span>Menu 2</a>
+                      <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages"><span class="badge"><i class="fas fa-dragon"></i></span>Buffet à volonté</a>
+                      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings"><span class="badge"><i class="fas fa-glass-cheers"></i></span>Fêtes et événements</a>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-12 col-md-8 col-lg-6 d-flex justify-content-center">
+                    <div class="tab-content" id="nav-tabContent">
+                      <div class="tab-pane fade show active w-75 mx-auto my-5" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                        <h3 class="txtcolor">Menu du Mandarin à 37,90€ par pers. (minimum 2 personnes)</h3>
+                        <ul>
+                            <li>Potage «La Chine»</li>
+                            <li>Hors-d'oeuvre varié chinois</li>
+                             <li>Salade maison / Canard laqué de Pékin / Boulettes de langoustine / Cuisses de grenouille / Ravioli grillés</li>
+                             <li>Langoustines sautées, sauce piquante / Emincés de boeuf aux champignons chinois / Poissons à la manière chinoise</li>
+                             <li>Glace aux fruits chinois ou Thé au jasmin</li>
+                           </ul>
+                      </div>
+
+                      <div class="tab-pane fade w-75 mx-auto my-5" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                        <h3 class="txtcolor">Repas familiaux chinois pour 4 personnes: 60,50€</h3>
+                        <ul>
+                            <li>Bouillon de volaille aux champignons chinois ou Potage vinaigre-piquant</li>
+                            <li>Filet de boeuf aux poivrons, sauce piquante</li>
+                            <li>Chop-shoy au porc</li>
+                            <li>Poulet découpé sauce curry</li>
+                            <li>Langoustines frites, sauce aigre-douce</li>
+                        </ul>
+                        </div>
+                          
+                      
+                      <div class="tab-pane fade w-75 mx-auto my-5" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                        <h3 class="txtcolor">Tous les midis du lundi au samedi</h3>
+                        <ul><li>Lunch à volonté à 14€ (softs et vin compris)</li>
+                            <li>Enfants 3-4 ans : 4€</li>
+                            <li>Enfants 5-11 ans : 7€</li>
+                        </ul>
+                        <h3 class="txtcolor">Du lundi au jeudi soir</h3>
+                          <ul>
+                            <li>Buffet wok à volonté à 20€ (apéritif, softs, vin, bière compris)</li>
+                            <li>Enfants 3-4 ans : 4€</li>
+                            <li>Enfants 5-11 ans : 10€</li>
+                          </ul>
+                        <h3 class="txtcolor">Le vendredi soir, samedi soir et dimanche midi/soir</h3>
+                          <ul>
+                            <li>Buffet wok à volonté à 25 € (apéritif, softs, vin, bière, thé compris)</li>
+                            <li>Enfants 3-4 ans : 4€</li>
+                            <li>Enfants 5-11 ans : 12,50€</li></ul> 
+                      </div>
+
+                      <div class="tab-pane fade w-75 mx-auto my-5" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                          <h3 class="txtcolor">MENU SPÉCIAL 26,80€ NOUVEL AN CHINOIS </h3>
+                          <p>(Prix par personne, minimum 2 personnes.)</p>
+                          <ul> 
+                          <li>Potage</li>
+                          <li>Pain vapeur Raviolis aux scampis au porc laqué</li>
+                          <li>Plateau composé de :</li>
+                          <li>Dessert de fête : </li>
+                            <ul>
+                              <li>a) Langoustines à l'ail Dame blanche avec</li>
+                          <li> b) Canard laqué coulis de chocolat chaud </li>
+                          <li>c) Filet de poulet croustillant ou thé/ café </li>
+                          <li>d) Agneau au gingembre </li>
+                          <li>e) Salade de crevettes </li>
+                          </ul>
+                          </ul>
+                          <h4 class="txtcolor">BUFFET À VOLONTÉ 35€ Forfait boissons à volonté ( hors apéritif, café et thé ) </h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+          
+  </main>
+
+<!-- Footer -->
+<footer class="page-footer font-small special-color-dark pt-4">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-1">
+          <i class="fab fa-facebook-f"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1">
+          <i class="fab fa-twitter"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-gplus mx-1">
+          <i class="fab fa-google-plus-g"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1">
+          <i class="fab fa-linkedin-in"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-dribbble mx-1">
+          <i class="fab fa-dribbble"> </i>
+        </a>
+      </li>
+    </ul>
+    <!-- Social buttons -->
+
+  </div>
+  <!-- Footer Elements -->
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2019 Copyright :
+      <a href="https://becode.org"> BeCode.org</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+
+</body>
+</html>

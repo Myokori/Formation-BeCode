@@ -1,0 +1,73 @@
+@import "variables";
+@import "navbar";
+@import "carte";
+@import "galerie";
+
+
+html, body {
+    width:100%;
+    background-color: $bgcolor01;
+}
+
+.parallax {
+    background:url("../img/Parallax.jpg");
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    width:auto;
+    height:400px;
+}
+
+// Hide BG IMG from Parallax effect
+@media (min-width: 300px) and (max-width:768px) {
+
+    .parallax { 
+        display: none;
+    }
+}
+
+// Jumbotron //
+
+.jumbotron {
+    background-color: $bgcolor02 !important;
+    padding:0 !important;
+    border-top:2px solid white
+}
+
+.jumbo {
+    color:$txtcolor;
+    width:100%;
+    text-align:center;
+}
+
+// ./Jumbotron //
+
+main {
+    min-width: 300px;
+    font-family: 'Crimson Text', serif;
+}
+
+// Gmap responsive //
+
+iframe {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    vertical-align:  middle;
+}
+// ./Gmap responsive //
+
+footer {
+    background-color: $bgcolor02;
+    color:white;
+    
+}
+
+
+nav, main, footer {
+    font-family: 'Crimson Text', serif;
+}
+
+.txtcolor, .important {
+    color:$txtcolor;
+}

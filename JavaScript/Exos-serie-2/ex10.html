@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ex 10</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+</head>
+<body>
+    <button type="button" id="for">Cliquez moi dessus</button>
+
+    <script>
+
+
+            window.onload=function() {
+                    document.getElementById('for').addEventListener("click", function somme(){
+                        let a = prompt("Veuillez saisir un nombre");
+                        let b = prompt("Veuillez saisir un nombre");
+                        let c = prompt("Veuillez saisir un nombre");
+                        for(a ; b ; c){
+                            alert(+a + +b + +c);
+                            break;
+                        }
+                       
+                    })}
+        </script>
+</body>
+</html>

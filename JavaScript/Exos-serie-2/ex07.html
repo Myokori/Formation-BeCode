@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ex 07</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+</head>
+<body>
+        <button type="button" name="choix" id="choix">Cliquez ici pour faire un choix</button>
+        <script>
+            window.onload=function() {
+                document.getElementById('choix').addEventListener("click", function fairechoix(){
+                    var choix=prompt('Veuillez entrer 1, 2 ou 3');
+                    switch (choix) {
+                    case "1" :
+                    alert("Merci !");
+                    break;
+
+                    case "2" :
+                    alert("Bonjour !");
+                    break;
+
+                    case "3" :
+                    alert("Au Revoir !");
+                    break;
+
+                    default :
+                    alert("Pardon que voulez vous?");
+                }
+                })
+
+            }
+        </script>
+</body>
+</html>

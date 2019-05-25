@@ -1,0 +1,240 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 3vh;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 2%;
+}
+
+.fontColorLight {
+  color: #d3D3D3;
+}
+
+.fontColorDark {
+  color: #999;
+}
+
+.white {
+  color: #fff;
+}
+
+.gradient {
+  background: linear-gradient(90turn, #db5f5f, #ffb88c);
+}
+
+.wrapper {
+  text-align: center;
+  padding: 10%;
+}
+
+.colorBox {
+  -webkit-box-shadow: 0px -3px 3px 0px #c95f5f;
+          box-shadow: 0px -3px 3px 0px #c95f5f;
+  padding: 5%;
+  text-align: center;
+}
+
+.colorBox p {
+  color: white;
+}
+
+.colorBoxName {
+  padding: 2%;
+  text-align: center;
+}
+
+.colorBoxName p {
+  color: white;
+}
+
+form,
+.form-group {
+  padding-top: 2%;
+}
+
+.input {
+  -webkit-box-shadow: 0px -3px 2px 0px #c95f5f;
+          box-shadow: 0px -3px 2px 0px #c95f5f;
+  border: none;
+  padding: 2%;
+  border-radius: 5px;
+}
+
+.inputIcon .form-control {
+  padding-left: 2.375rem;
+}
+
+.inputIcon .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+.button {
+  background-color: white;
+  -webkit-box-shadow: 0px -3px 2px 0px #c95f5f;
+          box-shadow: 0px -3px 2px 0px #c95f5f;
+  border: none;
+  padding: 2%;
+  border-radius: 5px;
+  width: 100%;
+  color: black;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+
+.button:hover {
+  -webkit-box-shadow: 0px -3px 2px 2px #c95f5f;
+          box-shadow: 0px -3px 2px 2px #c95f5f;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 5%;
+}
+
+.box .one {
+  -webkit-box-flex: 40%;
+      -ms-flex: 40%;
+          flex: 40%;
+}
+
+.box .one img {
+  width: 50%;
+  margin-top: -15px;
+}
+
+.box .two {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  text-align: right;
+}
+
+.box2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-bottom: 1px solid #999;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  padding: 2%;
+}
+
+.box2 .one {
+  -webkit-box-flex: 40%;
+      -ms-flex: 40%;
+          flex: 40%;
+  margin: 5% 0 5% 0;
+}
+
+.box2 .two {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  text-align: right;
+  margin: 5% 0 5% 0;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.box2 .two p {
+  color: #db5f5f;
+}
+
+.box2 p {
+  line-height: 3px;
+}
+
+.box2:hover {
+  background-color: #ffb88c;
+  border-bottom: 1px solid #fff;
+}
+
+.box2:hover p {
+  color: white;
+  font-weight: bold;
+}
+
+.profilImage {
+  width: 30%;
+}
+
+.profil {
+  text-align: center;
+  padding: 0 0 5% 0;
+  margin-top: -25px;
+}
+
+.profil img {
+  border-radius: 50%;
+  border: 4px solid white;
+}
+
+.sectionInfos {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFEFBA), to(#ffffff));
+  background: linear-gradient(#FFEFBA, #ffffff);
+  padding: 5% 0 5% 0;
+}
+
+.sectionInfos h2 {
+  color: #333;
+  text-align: center;
+  font-size: 3vh;
+  border-bottom: 1px solid #999;
+  padding-bottom: 2%;
+  font-weight: bold;
+}
+
+.reset {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFEFBA), to(#ffffff));
+  background: linear-gradient(#FFEFBA, #ffffff);
+  padding: 5% 0 5% 0;
+}
+
+.reset h2 {
+  color: #333;
+  text-align: center;
+  font-size: 3vh;
+  border-bottom: 1px solid #999;
+  padding-bottom: 2%;
+}
+
+.fas, .fa-users {
+  color: white;
+}
+
+ul li {
+  list-style-type: none;
+  margin-left: -40px;
+}
+/*# sourceMappingURL=style.css.map */

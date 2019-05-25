@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ex06</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+</head>
+<body>
+        <button type="button" name="calcul" id="calcul">Cliquez ici pour faire un calcul</button>
+        <script>
+            window.onload=function() {
+                var tab = [-2, 1, 4]
+                function soustrait(x){
+                    if (x-2 <0){
+                        return "Nombre Négatif !"
+                    }
+                    else {
+                        return x-2;
+                    }
+                }
+                document.getElementById('calcul').addEventListener("click", function affiche(){
+                    alert(soustrait(tab[0]));
+                    alert(soustrait(tab[tab.length -1]));
+                })
+
+
+
+
+            }
+        </script>
+</body>
+</html>

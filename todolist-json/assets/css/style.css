@@ -1,0 +1,26 @@
+.maincontent {
+    background-color:#00405B;
+    width:50%;
+    margin-top:1.5em;
+    margin-bottom:1.5em;
+}
+.top{
+    border-bottom:1px solid white;
+    color:white;
+    text-align:center;
+}
+.middle{
+    border-bottom:1px solid white;
+    color:white;
+    margin-top:0.5em;
+}
+.bottom{
+    color:white;
+    text-align:center;
+    margin-top:0.5em;
+}
+
+textarea{
+    resize:none;
+    width:50%;
+}

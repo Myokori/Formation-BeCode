@@ -1,0 +1,22 @@
+@import "variables";
+
+
+
+
+@media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-4 {
+    float: left;
+    width: 25%;
+    max-width: 100%; } }
+    
+    .carousel-multi-item-2 .card img {
+    border-radius: 2px; 
+}
+
+.black-text{
+    color:#222222
+}
+
+.black-text:hover {
+    color:#b30000;
+}

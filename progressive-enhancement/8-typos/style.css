@@ -1,0 +1,81 @@
+body { 
+    padding: 0;
+    margin: 0; 
+} 
+
+.grid-container {
+    grid-template-columns: auto;
+}
+
+.grid-item {
+
+    text-align:justify;
+    margin-left:15%;
+    margin-right:15%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("img/pablo-guerrero-1308486-unsplash.jpg");
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+h1 , h2 , h3 , h4 , h5 , h6 {
+    text-align:center;
+}
+
+blockquote {
+    font-size:120%;
+    font-family:'Times New Roman', Times, serif;
+    background-color:lightgrey;
+    border-left:3px solid brown;
+    padding-left:30px;
+    margin-top:50px;
+    margin-bottom:50px;
+    font-style:italic;
+    text-align:center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left {
+    display:block;
+    float:left;
+}
+
+.right {
+    display:block;
+    float:right;
+}
+
+.item1 {
+    padding-bottom:10%;
+}
+
+footer {
+    padding-top:20px;
+    background-color:#2C3545;
+    color:white;
+    text-align:center;
+    
+}
+
+footer ul li a {
+    color:yellow;
+}
+
+footer a {
+    color:yellow;
+}

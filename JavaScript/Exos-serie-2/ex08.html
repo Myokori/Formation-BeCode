@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ex 08</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+</head>
+<body>
+    <button id="date">Date</button>
+    <script>
+        window.onload=function() {
+                document.getElementById('date').addEventListener("click", function fairechoix(){
+                    let day;
+                    switch (new Date().getDay()) {
+                    case 0 :
+                    day ="Dimanche";
+                    break;
+
+                    case 1 :
+                    day ="Lundi";
+                    break;
+
+                    case 2 :
+                    day ="Mardi";
+                    break;
+
+                    case 3 :
+                    day ="Mercredi";
+                    break;
+
+                    case 4 :
+                    day ="Jeudi";
+                    break;
+
+                    case 5 :
+                    day ="Vendredi";
+                    break;
+
+                    case 6 :
+                    day ="Samedi";
+                    break;
+
+                    default :
+                    day ="Inconnu";
+                }
+                alert("Aujourd'hui c'est " + day);
+                })
+
+            }
+    </script>
+</body>
+</html>

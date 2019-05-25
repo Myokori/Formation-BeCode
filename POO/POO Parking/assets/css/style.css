@@ -1,0 +1,15 @@
+.tableau{
+    display:inline-flex;
+    width:33%;
+    justify-content:center;
+}
+
+.car{
+    display:block;
+}
+
+.right{
+    text-align:right;
+    width:160px;
+}
+

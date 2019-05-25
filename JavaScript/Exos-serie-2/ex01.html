@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Javascript</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+</head>
+<body>
+    <button type="button" name="surface" id="surface">Calculer la surface d'un rectangle</button>
+    <div id="result01"></div>
+    <button type="button" name="perimetre" id="perimetre">Calculer le périmètre d'un rectangle</button>
+    <div id="result02"></div>
+
+    <script>
+        window.onload=function(){
+document.getElementById("surface").addEventListener("click", function()
+{
+    var largeur=prompt("Veuillez saisir une largeur");
+    var longueur=prompt("Veuillez saisir une longueur");
+    var result01= (largeur*longueur);
+    document.getElementById('result01').innerHTML= result01;
+
+});
+
+document.getElementById("perimetre").addEventListener("click", function()
+{
+    var largeur=prompt("Veuillez saisir une largeur");
+    var longueur= prompt("Veuillez saisir une longueur");
+    var result02= (+largeur + +longueur)*2;
+    document.getElementById('result02').innerHTML= result02;
+
+});
+
+}
+    </script>
+</body>
+</html>

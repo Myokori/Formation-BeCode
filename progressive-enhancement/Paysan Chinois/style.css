@@ -1,0 +1,118 @@
+body {
+    background-color:darkgoldenrod;
+    background: -webkit-linear-gradient(-32deg, rgb(237, 215, 22), rgb(187, 101, 13));
+    background: linear-gradient(-32deg, rgb(237, 215, 22), rgb(187, 101, 13));
+    background-image: url(img/MaxPixel.freegreatpicture.com-Background-Abstract-Blue-Uhd-4k-Wallpaper-1772966.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size:cover;
+    color:darkred;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    width:90%;
+    margin:auto;
+}
+
+a {
+    background-color:darkred;
+    color:white;
+}
+
+blockquote {
+    width:50%;
+    font-size:160%;
+    font-family:'Times New Roman', Times, serif;
+    background-color:lightgrey;
+    border-left:3px solid brown;
+    padding-left:30px;
+    margin-top:80px;
+    margin-bottom:80px;
+    font-style:italic;
+}
+
+.villageois {
+    border-left:3px solid yellow;
+}
+
+.fermier {
+    border-left:3px solid red;
+}
+
+header blockquote {
+    background-color:yellow;
+}
+
+.bien {
+    color:green;
+}
+
+.mal {
+    color:red;
+}
+
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border:3px solid black;
+}
+
+
+.bien1 {
+    background-image: url(img/bien.png);
+    background-repeat: no-repeat;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.mal1 {
+    background-image: url(img/mal.png);
+    background-repeat: no-repeat;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.chats {
+    background-image: url(img/chat.png);
+    background-repeat: no-repeat;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+li {
+
+margin-top: 30px;
+}
+
+.p1 {font-weight:bold;}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 32e6f3d8e758199a162f760c4f2c276cadff9412
+
+.img-01 {
+    float:left;
+    width:50%;
+    margin-right: 15px;
+}
+
+.img-02 {
+    margin-top:50px;
+    
+}
+
+<<<<<<< HEAD
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Times New Roman', Times, serif;
+}
+
+=======
+>>>>>>> 32e6f3d8e758199a162f760c4f2c276cadff9412

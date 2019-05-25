@@ -1,0 +1,23 @@
+//Test comment SASS
+//Ca fonctionne plutôt bien !
+
+body {
+    font-size:16px;
+}
+
+//SASS Retire les répétitions inutiles.
+//Par exemple
+
+.home {
+    background-color:lightblue;
+}
+
+    .p {
+        background-color:white;
+    }
+
+// En CSS il aurait fallut mettre la classe home devant la class p pour que celle ci soit prise en compte;
+
+//Nested
+// En CSS on va répéter le nom de chaque propriété
+// En SCSS on peut écrire la propriété une fois et l'attribuer aux attributs restants

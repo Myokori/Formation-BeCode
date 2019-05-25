@@ -1,0 +1,17 @@
+body {
+    background-color:#02011A
+}
+
+section {
+    display:flex;
+}
+
+    ul {
+        flex-direction:column;
+    }
+
+        li {
+            list-style: none;
+            color:white;
+            padding:20px;
+        }    

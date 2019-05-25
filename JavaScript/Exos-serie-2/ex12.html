@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>ex 12</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  </head>
+  <body>
+    <button id="temp">
+      Cliquez sur moi !
+      </button>
+      <script>
+        window.onload = function() {
+          document.getElementById('temp').addEventListener("click", function conversionTemperature (){
+            let nb=prompt("Veuillez saisir une le modèle de conversion (1, 2, 3, 4, 5, 6 ou bien 0 pour terminer)");
+            nb = parseInt(nb)
+            let temperature;
+            switch(nb){
+              case 1 :
+              temperature=prompt("Veuillez saisir une température");
+              alert(temperature = (temperature* 9/5) + 32);
+              break;
+
+              case 2 :
+              temperature=prompt("Veuillez saisir une température");
+              alert(temperature = +temperature + 273,15);
+              break;
+
+              case 3 :
+              temperature=prompt("Veuillez saisir une température");
+              alert(temp = (temperature - 32) / (9/5));
+              break;
+
+              case 4 :
+              temperature=prompt("Veuillez saisir une température");
+              alert(temp = ((temperature - 32) * (5/9)) + 273,15);
+              break;
+
+              case 5 :
+              temperature=prompt("Veuillez saisir une température");
+              alert(temp = (temperature - 273,15));
+              break;
+
+              case 6 :
+              temperature=prompt("Veuillez saisir une température");
+              alert(temp = (temperature * 9/5) - 459,67);
+              break;
+
+              case 0 :
+              alert("Annulation")
+              break;
+            }
+          })
+        };
+      </script>
+  </body>
+</html>

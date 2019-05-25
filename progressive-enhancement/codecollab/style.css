@@ -1,0 +1,283 @@
+body {
+  background-color:#EAEBE9;
+}
+
+nav {
+width:100%;
+display:inline-block;
+height: 100px;
+}
+
+nav ul li {
+display:block;
+margin-left: 25px;
+padding-left: 25px;
+position: relative;
+}
+
+nav ul li a {
+text-decoration: none;
+}
+
+.left li {
+float:left;
+top:4px;
+
+}
+
+.right li {
+float:right;
+top:4px;
+margin-right:15px;
+}
+
+.btn-group button {
+background-color: white;
+border: 1px solid black;
+color: black;
+padding: 10px 24px;
+cursor: pointer;
+float: left; /* Float the buttons side by side */
+position: relative;
+top:-8px;
+margin-bottom:50px;
+}
+
+.btn-group button:not(:last-child) {
+border-right: none;
+}
+
+.btn-group button:hover {
+background-color: #31ADFF;
+color:white;
+}
+
+.btn-group .current {
+background-color:#31ADFF;
+color:white;
+border-radius:5px 0 0 5px;
+}
+
+.btn-group .bradius {
+border-radius:0 5px 5px 0;
+}
+
+.power {
+  font-size: 35px;
+  text-align:center;
+  margin-bottom:25px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.grid-items {
+  background-color: #2C3545;
+  border:1px solid black;
+  text-align:center;
+  color:white;
+  padding-left:50px;
+  padding-right:50px;
+}
+
+strong {
+  margin-top:25px;
+}
+
+.gridtext {
+  margin-top:15px;
+}
+
+.grid-items .gridimg {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:25px;
+  width:40%;
+}
+
+.middle {
+  background-color: #e9edf2;
+  text-align:center;
+}
+
+.middle p {
+  padding:50px;
+}
+.bmiddle {
+  background-color: #31ADFF;
+  color:white;
+  border:1px solid black;
+  border-radius:5px;
+}
+
+.middle img {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:25px;
+  width:60%;
+}
+
+.cloud {
+  margin-top:50px;
+  text-align: center;
+}
+
+.cloud .txt01 {
+  padding-top:25px;
+  padding-left:35%;
+  padding-right:35%;
+  padding-bottom:5%;
+}
+
+.cloud h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:18;
+  padding-bottom:15px;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.grid-items2 {
+  text-align:center;
+  color:black;
+  padding-left:50px;
+  padding-right:50px;
+  font-size:14px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom:15%;
+}
+
+.grid-items2 img {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:25px;
+  width:30%;
+}
+
+.bcontain01 {
+  background-color: #31ADFF;
+  color:white;
+  border:1px solid black;
+  border-radius:5px; 
+  margin-left:40%;
+  margin-right:40%;
+}
+
+.using {
+  background-color:#e9edf2;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.using .usingtxt {
+  padding-top:2%;
+  padding-left:35%;
+  padding-right:35%;
+  padding-bottom:2%;
+}
+
+.using img {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:80%;
+}
+
+.started {
+  margin-top:5%;
+  text-align:center;
+}
+
+.started .startedtxt {
+  padding-bottom:10%;
+}
+
+.grid-items3 {
+  background-color:#e9edf2;
+  border:2px solid lightgray;
+  width:40%;
+  margin:auto;
+}
+
+.grid-items3 h3 {
+  text-align:left;
+  margin-left:20%;
+  margin-right:20%;
+  font-size:18px;
+  margin-top:5%;
+}
+
+.grid-items3 input {
+  margin-left:20%;
+  margin-right:20%;
+}
+
+.grid-items3 .bcontain03 {
+  background-color: #31ADFF;
+  color:white;
+  border:1px solid black;
+  border-radius:5px; 
+  margin-left:35%;
+  margin-right:35%;
+  margin-top:5%;
+  margin-bottom:2%;
+}
+
+.startedend {
+  margin:5%;
+}
+
+.footer {
+  background-color: #2C3545;
+  
+}
+
+.footer ul li {
+  display:block;
+  color:white;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color:white;
+}
+
+.grid-container4 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  margin-left:5%;
+
+}
+
+.grid-items4 {
+  padding-top:75px;
+  padding-bottom:75px;
+}
+
+#social{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  
+  
+}
+#container-social{
+  display: inline;
+  border: auto;
+}
+#social img{
+  padding: 5px;
+}
+#copyright{
+  margin-top: 40px;
+  color: #7b808a;
+  text-align: center;
+}

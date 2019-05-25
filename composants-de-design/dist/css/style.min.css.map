@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,AAAC,CACH,OAAO,CAAC,IAAI,CACf,AAEG,AAAA,KAAK,AAAC,CACF,cAAc,CAAC,GAAG,CACrB,AAED,AAAA,MAAM,AAAC,CACH,cAAc,CAAC,GAAG,CACrB",
+    "sources": [
+        "../../footer-social/assets/sass/style.scss"
+    ],
+    "names": [],
+    "file": "style.min.css"
+}

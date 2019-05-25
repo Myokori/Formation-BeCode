@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>ex 11</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  </head>
+  <body>
+    <button type="button" id="for">Cliquez moi dessus</button>
+    <script>
+      window.onload = function() {
+        document
+          .getElementById("for")
+          .addEventListener("click", function calculMoyenne() {
+            let somme = 0;
+            let moyenne = 0;
+            let i = 0;
+            let nb = 0;
+            while (nb >= 0) {
+              do {
+                nb = Number(prompt("Veuillez entrer un nombre entier"));
+              } while (nb != parseInt(nb));
+              if (nb < 0) {
+                break;
+              }
+              somme += nb;
+              i++;
+            }
+            moyenne = somme / i;
+            return window.alert(
+              "Nombre de valeur: " + i + "\nMoyenne : " + moyenne
+            );
+          });
+      };
+    </script>
+  </body>
+</html>

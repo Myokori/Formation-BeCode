@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,AAAC,CACD,gBAAgB,CAAC,OACrB,CAAC,AAED,AAAA,OAAO,AAAC,CACJ,OAAO,CAAC,IAAI,CACf,AAGG,AAAA,EAAE,AAAC,CACC,cAAc,CAAC,MAAM,CACxB,AAEG,AAAA,EAAE,AAAC,CACC,UAAU,CAAE,IAAI,CAChB,KAAK,CAAC,KAAK,CACX,OAAO,CAAC,IAAI,CACf",
+    "sources": [
+        "../../assets/scss/style.scss"
+    ],
+    "names": [],
+    "file": "style.min.css"
+}

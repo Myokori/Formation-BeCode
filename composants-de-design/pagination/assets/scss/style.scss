@@ -1,0 +1,31 @@
+section {
+    display:block;
+}
+    ul{
+        text-align:center;
+    }
+        li {
+            display:inline-block;
+            list-style:none;
+        }
+            button {
+                padding-top:10px;
+                padding-bottom:10px;
+                padding-left:35px;
+                padding-right:35px;
+                border-radius:5px;
+                border:1px solid white;
+                background-color:#1F1C44;
+                color:white;
+                font-weight:bold;
+            }
+
+                .dots {
+                    background-color:white;
+                    color:black;
+                }
+                
+                .current {
+                    background-color:#59B9DE;
+                    color:white;
+                }
